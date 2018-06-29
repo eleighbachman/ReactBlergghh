@@ -1,0 +1,122 @@
+.App {
+  width: 90%;
+  margin: auto;
+  color: #292929;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.tagline {
+  font-style: italic;
+  margin-left: 115px;
+  font-size: 14px;
+  color: #5DDEFF;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1 {
+  text-align: left;
+  display: inline;
+}
+
+.totalPostForm {
+  margin: 50px 0px;
+}
+
+
+.addPost {
+  background-color: #292929;
+  width: 60%;
+  margin: auto;
+  color: #eee;
+  padding: 20px;
+  border-radius: 5px;
+  padding-left: 30px;
+  margin-top: 30px;
+}
+
+.addPost input {
+  border-radius: 5px;
+  width: 50%;
+  height: 20px;
+}
+
+.addPost textarea {
+  width: 90%;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.addPost button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #5DDEFF;
+  border-color: #5DDEFF;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.addPost button:hover{
+  cursor: pointer;
+}
+
+
+.totalPostBody .postCount {
+  text-align: right;
+  font-style: italic;
+}
+
+.post {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 0px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+.post p {
+  padding: 0px 10px;
+}
+
+.post:hover {
+  cursor: pointer;
+  margin-top: -3px;
+  margin-bottom: 13px;
+}
+
+.post h3 {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  background-color: #292929;
+  color: #eee;
+  border-radius: 5px;
+
+
+}
+
+.post h3:hover {
+  color: #5DDEFF;
+}
