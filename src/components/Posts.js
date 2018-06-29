@@ -15,6 +15,7 @@ class Posts extends Component {
   }
 
   render() {
+    const postLength = this.props.posts.length;
     const postItems = this.props.posts.map(post => {
       return (
         <div className="post" key={post.id}>
@@ -27,7 +28,7 @@ class Posts extends Component {
       <div className="totalPostBody">
         <h1>Posts</h1>
         <hr/>
-        <p className="postCount"> total posts</p>
+        <p className="postCount">{postLength} total posts</p>
         {postItems}
       </div>
     )
